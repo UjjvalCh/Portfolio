@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Ujjval.">
+    <title>Contact | Ujjval</title>
+
+    <!-- Corrected CSS relative paths -->
+    <link rel="stylesheet" href="../Css/Index.css">
+    <link rel="stylesheet" href="../Css/Animation.css">
+    <link rel="stylesheet" href="../Css/Responsive.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="Index.html" class="logo">Ujjval<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="Index.html" class="nav-link">Home</a></li>
+                <li><a href="About.html" class="nav-link">About</a></li>
+                <li><a href="Contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark and light theme">
+                <span class="theme-icon">☀</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="section-container">
+                <p class="section-label">Let's connect</p>
+                <h1>Contact Me</h1>
+                <p>Have a question, idea or project in mind? Feel free to get in touch.</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="section-container">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="button primary-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Ujjval. All rights reserved.</p>
+    </footer>
+
+    <!-- Corrected JS relative paths and filename -->
+    <script src="../Js/Theme.js"></script>
+    <script src="../Js/Animation.js"></script>
+    <script src="../Js/Index.js"></script>
+</body>
+</html>
